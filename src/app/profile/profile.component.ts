@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
 import {Repository } from '../repository';
-import { UserService } from '../git-service.service';
+import { GitService } from'../git-service.service';
 
 @Component({
-  selector: 'app-userprofile',
-  templateUrl: './userprofile.component.html',
-  styleUrls: ['./userprofile.component.css'],
+  selector: 'app-profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.css'],
 })
 export class ProfileComponent implements OnInit {
   Users!: User;
   Repos: Repository[] = [];
-  constructor(public userHttpService: UserService) { }
+  constructor(public userHttpService: GitService) { }
 
   ngOnInit() {
     this.searchGit('kimutaimeshack');
