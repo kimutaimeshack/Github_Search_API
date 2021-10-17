@@ -10,8 +10,7 @@ by [MESHACK KIMUTAI](https://github.com/kimutaimeshack?tab=repositories)
 <table>
 <tr>
 <td>
-This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. It is created using Angular CLI
 </td>
 </tr>
 </table>
