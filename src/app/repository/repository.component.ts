@@ -14,7 +14,7 @@ import { Repository } from '../repository';
   providers: [GitService],
   styleUrls: ['./repository.component.css'],
 })
-export class RepositoriesComponent implements OnInit {
+export class RepositoryComponent implements OnInit {
   Users!: User;
   Repos: Repository[] = [];
   constructor(public userHttpService: GitService) { }

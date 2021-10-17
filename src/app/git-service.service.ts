@@ -15,10 +15,10 @@ export class GitService{
   searchGits(searchTerm: string) {
     interface userInterface {
       login: string;
-      avatar_url: any;
       followers: any;
       following: any;
       public_repos: any;
+      avatar_url: any;
       location: any;
     }
     let urlUser = 'https://api.github.com/users/' + searchTerm;
@@ -47,6 +47,7 @@ export class GitService{
       name: string;
       description: string;
       created_at: Date;
+      html_url:string;
     }
 
     let urlUser = 'https://api.github.com/users/' + searchTerm + '/repos';
@@ -62,7 +63,8 @@ export class GitService{
               let repo = new Repository(
                 results[i].name,
                 results[i].description,
-                results[i].created_at
+                results[i].created_at,
+                results[i].html_url
               );
               this.Repos.push(repo);
             }
