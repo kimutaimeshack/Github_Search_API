@@ -2,6 +2,7 @@
 .myprofiledisplay{
   display: flex;
   justify-content: flex-center;
+  background-color: lightskyblue;
   
 }
 .secondprofile{
