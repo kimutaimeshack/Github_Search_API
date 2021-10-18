@@ -16,11 +16,11 @@ This is a website where users may enter a GitHub username into a form, submit it
 </table>
 
 ### Home page
-![alt text](https://github.com/kimutaimeshack/-quotesVote/blob/master/src/assets/quote.png)
+![alt text](https://github.com/kimutaimeshack/Github_Search_API/blob/main/src/assets/home.png)
 *********
 
 ## project live link
-Here is a working live link : https://kimutaimeshack.github.io/-quotesVote/
+Here is a working live link : https://kimutaimeshack.github.io/Github_Search_API/userprofile
 
 *********
 ## Development
@@ -40,11 +40,11 @@ To access this project on your local files, you can clone it using these steps
 To fix a bug or enhance an existing module, follow these steps:
 
 - Fork the repo
-- Create a new branch (`git checkout -b QUOTE`)
+- Create a new branch (`git checkout -b gitsearch`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'QUOTE'`)
-- Push to the branch (`git push origin QUOTE`)
+- Commit your changes (`git commit -am 'gitsearch'`)
+- Push to the branch (`git push origin gitsearch`)
 - Create a Pull Request 
 
 *********
