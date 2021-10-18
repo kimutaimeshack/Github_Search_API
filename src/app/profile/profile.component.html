@@ -6,13 +6,15 @@
 <p>Username: {{Users.login}}</p>
 </div>
 <div class="secondprofile">
+<p>Bio <span>{{Users.bio}}</span> </p>
+<p>Name: {{Users.name}}</p>
 <p>Followers: {{Users.followers}}</p>
 <p>Following: {{Users.followers}}</p>
 <p>Public Repositories: {{Users.public_repos}}</p>
 <p>Profile link: {{Users.html_url}}</p>
-<p>Name: {{Users.name}}</p>
-<p>Bio Repositories: {{Users.bio}}</p>
-<p>Location: {{Users.location}}</p>
+
+
+
 </div>
 </div>
 <div *ngIf='Repos'>
