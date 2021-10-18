@@ -1,7 +1,11 @@
 <app-search (emitSearch)="searchGit($event)"></app-search><br>
 <div class="container">
+  <div class="myprofiledisplay">
+    <div class="fistprofile">
   <img id="avatar" src="{{Users.avatar_url}}" alt="profile pic" height="250px" width="250px">
 <p>Username: {{Users.login}}</p>
+</div>
+<div class="secondprofile">
 <p>Followers: {{Users.followers}}</p>
 <p>Following: {{Users.followers}}</p>
 <p>Public Repositories: {{Users.public_repos}}</p>
@@ -9,13 +13,15 @@
 <p>Name: {{Users.name}}</p>
 <p>Bio Repositories: {{Users.bio}}</p>
 <p>Location: {{Users.location}}</p>
-
+</div>
+</div>
 <div *ngIf='Repos'>
   <div *ngFor='let repo of Repos'>
+    <div class="MYREPO">
     <h3>{{repo.name}}</h3>
     <p> {{repo.description}} </p>
     <p> {{repo.created_at | date}}</p>
-
+   </div>
   </div>
 </div>
 </div>
