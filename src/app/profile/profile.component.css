@@ -14,6 +14,9 @@
    padding: 20px;
    margin: 30px;
 }
+#repolink {
+  font-size: xx-small;
+}
 .allrepo {
   border: lightblue 10px;
 }

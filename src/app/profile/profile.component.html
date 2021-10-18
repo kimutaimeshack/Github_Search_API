@@ -22,7 +22,8 @@
     <div class="MYREPO">
     <h3>{{repo.name}}</h3>
     <p> {{repo.description}} </p>
-    <p> {{repo.created_at | date}}</p>
+     <p class="repolink"> {{repo.html_url}} </p>
+    <p class="repolink"> {{repo.created_at | date}}</p>
    </div>
   </div>
 </div>
