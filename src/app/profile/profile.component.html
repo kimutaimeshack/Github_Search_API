@@ -5,6 +5,9 @@
 <p>Followers: {{Users.followers}}</p>
 <p>Following: {{Users.followers}}</p>
 <p>Public Repositories: {{Users.public_repos}}</p>
+<p>Profile link: {{Users.html_url}}</p>
+<p>Name: {{Users.name}}</p>
+<p>Bio Repositories: {{Users.bio}}</p>
 <p>Location: {{Users.location}}</p>
 
 <div *ngIf='Repos'>
@@ -12,6 +15,7 @@
     <h3>{{repo.name}}</h3>
     <p> {{repo.description}} </p>
     <p> {{repo.created_at | date}}</p>
+
   </div>
 </div>
 </div>

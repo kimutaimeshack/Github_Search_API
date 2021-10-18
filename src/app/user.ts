@@ -6,6 +6,9 @@ export class User {
     public followers: any,
     public following: any,
     public public_repos: any,
-    public location: any
+    public location: any,
+    public html_url: any,
+    public name: string,
+    public bio: string
   ) { }
 }

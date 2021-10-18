@@ -20,6 +20,9 @@ export class GitService{
       public_repos: any;
       avatar_url: any;
       location: any;
+      html_url:any;
+      name:string;
+      bio:string;
     }
     let urlUser = 'https://api.github.com/users/' + searchTerm;
 
